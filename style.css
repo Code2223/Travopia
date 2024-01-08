@@ -1,0 +1,198 @@
+@media screen and (max-width: 914px) {
+    body{
+        background-color: whitesmoke;
+    }
+    .nav{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    li{
+        text-decoration: none;
+        display: inline;
+        font-size: 20px;
+        padding: 0 10px 0 5px;
+    }
+    
+    .logo{
+        margin: 10px;
+        height: 60px;
+        width: 150px;
+        background-image: url(./logo.png);
+        background-size: contain;
+        background-position:left;
+        background-repeat: no-repeat;
+    }
+    .card1{
+        background-image: url(./hero_sec.jpg);
+        height: 200px;
+        background-position: center;
+        background-size: 200%;
+        background-repeat: no-repeat;
+    }
+    .card2{
+        background-color: black;
+        filter: opacity(60%);
+        border-radius: 5px;
+        width: 80%;
+        position: relative;
+        top: 20%;     
+        left: 10%;
+        backdrop-filter: blur(15px);
+        color: aliceblue;
+        height: 130px;
+        
+    }
+    h3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        padding-top: 10px;
+
+    }
+    p{
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #more{
+        display: none;
+    }
+    button{
+        border: none;
+        background-color: white;
+        color: rgb(40, 119, 151);
+        font-size: 15px;
+    } 
+    .blog{
+        background-color: white;
+        width: 90%;
+        position: relative;
+        left: 18px;
+    }  
+    .humberg{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    #mylink{
+        display: flex;
+        flex-flow: column;
+        
+    }
+    #mylink a{
+        text-decoration: none;
+        border-bottom: 0.2px solid grey;
+        color: grey;
+        font-size: 25px;
+        padding: 7px;
+    }
+    .mid-sec{
+        display: flex;
+        flex-flow: column;
+        }
+    #l1 a{
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white; 
+         
+    }
+    #l1{
+        background-color: rgb(22, 68, 113);
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
+    #l2{
+        background-color: black;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0 10px 0;
+    }
+    #l2 a{
+        text-decoration: none;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #humberg{
+        display: none;
+    }
+    .call{
+        margin: 10px;
+        border: 0.4px solid grey;
+        line-height: 0px;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .call p{
+        padding: 1px;
+        
+    }
+    #c1{
+        color: rgb(63, 191, 242);
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .form{
+        background-color: rgb(33, 44, 42);
+        color: white;
+        padding: 20px;
+    }
+    .form h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .form h3{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    label{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    input,select{
+        width: 100%;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        color: grey;
+        margin: 10px 0 10px 0;
+        border-radius: 5px;
+    }
+    input{
+        width: 95%;
+    }
+    textarea{
+        width: 100%;
+        height: 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        margin: 10px 0 10px 0;
+        border-radius: 5px;
+    }
+    .footer{
+        
+        margin-top: 20px;
+        background-color: rgb(46, 46, 50);
+        color: white;
+        padding: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+   .footer p{
+    padding: 0;
+    margin: 0;
+   }
+   .footer i{
+    margin: 30px 0 10px 0;
+   }
+   #submit{
+    border: 2px solid skyblue;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+   }
+}
